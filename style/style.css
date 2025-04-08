@@ -222,41 +222,43 @@ h2{
     align-items: center;
 
 }
+/* featured*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container1{
- width: 142px;
-height: 20px;
-top: 4px;
-left: 15px;
-font-family: Inter;
-font-weight: 400;
-font-size: 14.3px;
-line-height: 28.13px;
-letter-spacing: 0%;
-vertical-align: middle;
-
+.Featured{
+     margin: 0 20px;
+     border: 1px solid #ebe9e9;
+     -webkit-border-radius: 15px ;
+     -moz-border-radius: 15px ;
+     -ms-border-radius: 15px ;
+     -o-border-radius: 15px ;
+     border-radius: 15px ;
+ 
 }
+.last{
+  
+     border: 1px solid #ebe9e9;
+     padding-top: 15px;
+   
+}
+/* Travel*/
+.container_travel{
+    position: relative;
+}
+.title_travel{
+    background-color: #d63384;
+     position: absolute;
+    top: 0; 
+    left: 0; 
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    width: 50%;
+}
+
+
+
+
+
+/*
 .explore{
     width: 635.8599853515625;
 height: 60;
@@ -271,3 +273,4 @@ vertical-align: middle;
 
 }
 
+*/
